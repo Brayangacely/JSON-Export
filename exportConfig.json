@@ -273,6 +273,6 @@
     "tipo",
     "keeper"],
     "globalConfig": {
-        "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://pilot-avi-ai.azurewebsites.net/auth", "askURL": "https://pilot-avi-ai.azurewebsites.net/predict", "trainingURL": "https://pilot-avi-ai.azurewebsites.net/training/save", "metricsURL": "https://pilot-avi-ai.azurewebsites.net/metrics/save"
+        "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://pilot-avi-ai.azurewebsites.net/auth", "askURL": "https://pilot-avi-ai.azurewebsites.net/model/predict", "trainingURL": "https://pilot-avi-ai.azurewebsites.net/training/save", "metricsURL": "https://pilot-avi-ai.azurewebsites.net/metrics/save"
     }
 }
