@@ -258,6 +258,27 @@
         "topRequeOUT":false,
         "topRequeSEND":false
     }
+    ],
+    [ {
+        "tipoParam":"",
+        "requerido":false,
+        "topRequeIN":false,
+        "topRequeOUT":false,
+        "paramCompar":true,
+        "customParam":true,
+        "othersParams":false,
+        "topRequeSEND":false,
+        "className":"CustomParam",
+        "id":"CustomParam",
+        "nodeName":"CustomParam",
+        "sendSelector":"null",
+        "recivedSelector":"FORM>INPUT.input.mb16",
+        "baseURI":"https://login.salesforce.com/?locale=mx",
+        "textContent":"",
+        "parentNode": {
+            "className": "CustomParam", "id": "CustomParam", "nodeName": "CustomParam"
+        }
+    }
     ]],
     "paramsNames":["question",
     "keeper_answer",
@@ -271,7 +292,7 @@
     "intención",
     "expectativa",
     "tipo",
-    "keeper"],
+    "keeper","otro"],
     "globalConfig": {
         "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://pilot-avi-ai.azurewebsites.net/auth", "askURL": "https://pilot-avi-ai.azurewebsites.net/model/predict", "trainingURL": "https://pilot-avi-ai.azurewebsites.net/training/save", "metricsURL": "https://pilot-avi-ai.azurewebsites.net/metrics/save"
     }
