@@ -22,6 +22,27 @@
     ],
 
     [ {
+        "reLoadParam":true,
+        "othersParams":false,
+        "topRequeSEND":false,
+        "tipoParam":"",
+        "requerido":false,
+        "topRequeIN":false,
+        "topRequeOUT":false,
+        "paramCompar":false,
+        "customParam":false,
+        "className":"input r4 wide mb16 mt8 username",
+        "id":"username",
+        "nodeName":"INPUT",
+        "baseURI":"https://login.salesforce.com/?locale=mx",
+        "textContent":"",
+        "parentNode": {
+            "className": "", "id": "username_container", "nodeName": "DIV"
+        }
+    }
+    ],
+
+    [ {
         "baseURI":"https://login.salesforce.com/?locale=mx",
         "className":"button r4 wide primary",
         "customParam":false,
@@ -318,6 +339,7 @@
     }
     ]],
     "paramsNames":["question",
+    "userInput",
     "login",
     "keeper_answer",
     "buttonPSend",
