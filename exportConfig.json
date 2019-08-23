@@ -182,7 +182,7 @@
         }
         ,
         "reLoadParam":false,
-        "requerido":true,
+        "requerido":false,
         "tipoParam":"tipificacion",
         "topRequeIN":false,
         "topRequeOUT":false,
@@ -203,7 +203,7 @@
         }
         ,
         "reLoadParam":false,
-        "requerido":true,
+        "requerido":false,
         "tipoParam":"tipificacion",
         "topRequeIN":false,
         "topRequeOUT":false,
