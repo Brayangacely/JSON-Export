@@ -10,6 +10,7 @@
             "className": "CustomParam", "id": "CustomParam", "nodeName": "CustomParam"
         }
         ,
+        "reLoadParam":false,
         "recivedSelector":".inbound>.content",
         "requerido":true,
         "sendSelector":".outbound>.content",
@@ -19,6 +20,29 @@
         "topRequeOUT":false
     }
     ],
+
+    [ {
+        "baseURI":"https://login.salesforce.com/?locale=mx",
+        "className":"button r4 wide primary",
+        "customParam":false,
+        "id":"Login",
+        "nodeName":"INPUT",
+        "othersParams":false,
+        "paramCompar":false,
+        "parentNode": {
+            "className": "", "id": "login_form", "nodeName": "FORM"
+        }
+        ,
+        "reLoadParam":true,
+        "requerido":false,
+        "textContent":"",
+        "tipoParam":"",
+        "topRequeIN":false,
+        "topRequeOUT":false,
+        "topRequeSEND":false
+    }
+    ],
+
     [ {
         "baseURI":"https://na51.salesforce.com/5000V00001Ia78g?isdtp=vw&isdtp=vw&isWsVw=true&nonce=0b6820c9b1bde55887b85a579dc0a38050df720b7097c09048b3b4a3882c9370&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
         "className":"socialPubContentField",
@@ -31,6 +55,7 @@
             "className": "", "id": "", "nodeName": "SPAN"
         }
         ,
+        "reLoadParam":false,
         "requerido":false,
         "tipoParam":"",
         "topRequeIN":false,
@@ -51,6 +76,7 @@
             "className": "publisherShareButtonPlaceholder socialSendButton", "id": "", "nodeName": "SPAN"
         }
         ,
+        "reLoadParam":false,
         "requerido":false,
         "tipoParam":"",
         "topRequeIN":false,
@@ -71,6 +97,7 @@
             "className": " dataCell  cellCol1 ", "id": "", "nodeName": "TH"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"",
         "topRequeIN":false,
@@ -91,6 +118,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "cas11_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"",
         "topRequeIN":false,
@@ -111,6 +139,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000008YWg4_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"tipificacion",
         "topRequeIN":false,
@@ -131,6 +160,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000008YWhu_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"tipificacion",
         "topRequeIN":false,
@@ -151,6 +181,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000008YWhv_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"tipificacion",
         "topRequeIN":false,
@@ -171,6 +202,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000008YWhw_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"tipificacion",
         "topRequeIN":false,
@@ -191,6 +223,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000003jG5C_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":true,
         "tipoParam":"sentimiento",
         "topRequeIN":false,
@@ -211,6 +244,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000003jFjy_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":false,
         "tipoParam":"otro",
         "topRequeIN":false,
@@ -231,6 +265,7 @@
             "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000008YWg5_ilecell", "nodeName": "TD"
         }
         ,
+        "reLoadParam":false,
         "requerido":false,
         "tipoParam":"otro",
         "topRequeIN":false,
@@ -251,6 +286,7 @@
             "className": "", "id": "username_container", "nodeName": "DIV"
         }
         ,
+        "reLoadParam":false,
         "requerido":false,
         "textContent":"",
         "tipoParam":"",
@@ -267,6 +303,7 @@
         "paramCompar":true,
         "customParam":true,
         "othersParams":false,
+        "reLoadParam":false,
         "topRequeSEND":false,
         "className":"CustomParam",
         "id":"CustomParam",
@@ -281,6 +318,7 @@
     }
     ]],
     "paramsNames":["question",
+    "login",
     "keeper_answer",
     "buttonPSend",
     "contact_form",
