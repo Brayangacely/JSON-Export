@@ -14,10 +14,32 @@
         "recivedSelector":".inbound>.content",
         "requerido":true,
         "sendSelector":".outbound>.content",
-        "textContent":"PAGUENME",
+        "textContent":"",
         "tipoParam":"",
         "topRequeIN":true,
         "topRequeOUT":false
+    }
+    ],
+
+    [ {
+        "baseURI":"https://na51.salesforce.com/5000V00001L927y?isdtp=vw&nonce=f3bf3c62dd379b57d628d7754dfc87829dc5c0ed1e09b9e5e936312af27e1c42&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
+        "className":"",
+        "customParam":false,
+        "id":"00Nd0000003jnhy_ileinner",
+        "nodeName":"DIV",
+        "othersParams":false,
+        "paramCompar":false,
+        "parentNode": {
+            "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000003jnhy_ilecell", "nodeName": "TD"
+        }
+        ,
+        "reLoadParam":false,
+        "requerido":true,
+        "textContent":"",
+        "tipoParam":"",
+        "topRequeIN":false,
+        "topRequeOUT":false,
+        "topRequeSEND":false
     }
     ],
 
@@ -339,6 +361,7 @@
     }
     ]],
     "paramsNames":["question",
+    "language",
     "userInput",
     "login",
     "keeper_answer",
