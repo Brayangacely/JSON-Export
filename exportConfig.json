@@ -268,7 +268,7 @@
         ,
         "reLoadParam":false,
         "requerido":true,
-        "tipoParam":"sentiment",
+        "tipoParam":"intention",
         "topRequeIN":false,
         "topRequeOUT":false,
         "topRequeSEND":false
