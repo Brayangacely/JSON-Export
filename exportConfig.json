@@ -342,17 +342,17 @@
         "othersParams":false,
         "topRequeSEND":false,
         "tipoParam":"",
-        "requerido":true,
+        "requerido":false,
         "topRequeIN":false,
         "topRequeOUT":false,
         "paramCompar":true,
         "customParam":false,
-        "className":"",
-        "id":"00Nd0000007hbvw",
-        "nodeName":"SELECT",
+        "className":"inlineEditModified",
+        "id":"00Nd0000007hbvw_ileinner",
+        "nodeName":"DIV",
         "baseURI":"https://na51.salesforce.com/5000V00001L9zNR?isdtp=vw&nonce=5f20bb32cc82e28ca3287c2104b0383cd555c6d21afe7b86ae0cf21cf20e7a33&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
         "parentNode": {
-            "className": "", "id": "", "nodeName": "SPAN"
+            "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000007hbvw_ilecell", "nodeName": "TD"
         }
     }
     ],
@@ -389,13 +389,13 @@
         "topRequeOUT":false,
         "paramCompar":false,
         "customParam":false,
-        "className":"",
-        "id":"00Nd0000007hbvw",
-        "nodeName":"SELECT",
+        "className":"inlineEditModified",
+        "id":"00Nd0000007hbvw_ileinner",
+        "nodeName":"DIV",
         "baseURI":"https://na51.salesforce.com/5000V00001L9zNR?isdtp=vw&nonce=5f20bb32cc82e28ca3287c2104b0383cd555c6d21afe7b86ae0cf21cf20e7a33&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
-        "textContent":"--Ninguno--COORDCONTINGENCIAFRESNEDAABONILLACAMAYAJRICAURTEEGONZALEZCRINCONECORREDORDCELISKVELASQUEZMMEDINAHSANCHEZDCORDOBAJCASTAÑEDADCONTRERASMCRUZYFONSECAVSANCHEZWSANTOSCCAMACHOGGONZALEZLC",
+        "textContent":"CONTINGENCIA",
         "parentNode": {
-            "className": "", "id": "", "nodeName": "SPAN"
+            "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000007hbvw_ilecell", "nodeName": "TD"
         }
     }
     ]],
