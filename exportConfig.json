@@ -377,6 +377,6 @@
     "tipo",
     "keeper","otro"],
     "globalConfig": {
-        "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://app-modelapi-v1-dev-crd-hd.azurewebsites.net/auth", "askURL": "https://app-modelapi-v1-dev-crd-hd.azurewebsites.net/model/predict", "trainingURL": "https://app-modelapi-v1-dev-crd-hd.azurewebsites.net/training/save", "metricsURL": "https://app-modelapi-v1-dev-crd-hd.azurewebsites.net/metrics/save"
+        "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "http://10.133.10.135/auth", "askURL": "http://10.133.10.135/model/predict", "trainingURL": "http://10.133.10.135/training/save", "metricsURL": "http://10.133.10.135/metrics/save"
     }
 }
