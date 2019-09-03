@@ -342,18 +342,17 @@
         "othersParams":false,
         "topRequeSEND":false,
         "tipoParam":"",
-        "requerido":false,
+        "requerido":true,
         "topRequeIN":false,
         "topRequeOUT":false,
         "paramCompar":true,
         "customParam":false,
         "className":"",
-        "id":"00Nd0000007hbvw_ileinner",
-        "nodeName":"DIV",
+        "id":"00Nd0000007hbvw",
+        "nodeName":"SELECT",
         "baseURI":"https://na51.salesforce.com/5000V00001L9zNR?isdtp=vw&nonce=5f20bb32cc82e28ca3287c2104b0383cd555c6d21afe7b86ae0cf21cf20e7a33&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
-        "textContent":"",
         "parentNode": {
-            "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000007hbvw_ilecell", "nodeName": "TD"
+            "className": "", "id": "", "nodeName": "SPAN"
         }
     }
     ],
@@ -379,6 +378,26 @@
             "className": "CustomParam", "id": "CustomParam", "nodeName": "CustomParam"
         }
     }
+    ],
+    [ {
+        "reLoadParam":true,
+        "othersParams":false,
+        "topRequeSEND":false,
+        "tipoParam":"",
+        "requerido":false,
+        "topRequeIN":false,
+        "topRequeOUT":false,
+        "paramCompar":false,
+        "customParam":false,
+        "className":"",
+        "id":"00Nd0000007hbvw",
+        "nodeName":"SELECT",
+        "baseURI":"https://na51.salesforce.com/5000V00001L9zNR?isdtp=vw&nonce=5f20bb32cc82e28ca3287c2104b0383cd555c6d21afe7b86ae0cf21cf20e7a33&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
+        "textContent":"--Ninguno--COORDCONTINGENCIAFRESNEDAABONILLACAMAYAJRICAURTEEGONZALEZCRINCONECORREDORDCELISKVELASQUEZMMEDINAHSANCHEZDCORDOBAJCASTAÑEDADCONTRERASMCRUZYFONSECAVSANCHEZWSANTOSCCAMACHOGGONZALEZLC",
+        "parentNode": {
+            "className": "", "id": "", "nodeName": "SPAN"
+        }
+    }
     ]],
     "paramsNames":["question",
     "language",
@@ -397,7 +416,8 @@
     "tipo",
     "keeper",
     "keeper2",
-    "otro"],
+    "otro",
+    "keeperReload"],
     "globalConfig": {
         "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "http://10.133.10.135/auth", "askURL": "http://10.133.10.135/model/predict", "trainingURL": "http://10.133.10.135/training/save", "metricsURL": "http://10.133.10.135/metrics/save"
     }
