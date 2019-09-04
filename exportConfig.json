@@ -318,41 +318,22 @@
     ,
     null],
     [ {
-        "baseURI":"https://login.salesforce.com/?locale=mx",
-        "className":"input r4 wide mb16 mt8 username",
-        "customParam":false,
-        "id":"username",
-        "nodeName":"INPUT",
-        "othersParams":false,
-        "paramCompar":true,
-        "parentNode": {
-            "className": "", "id": "username_container", "nodeName": "DIV"
-        }
-        ,
-        "reLoadParam":false,
-        "requerido":false,
-        "textContent":"",
-        "tipoParam":"",
-        "topRequeIN":false,
-        "topRequeOUT":false,
-        "topRequeSEND":false
-    }
-    ],[ {
         "reLoadParam":false,
         "othersParams":false,
         "topRequeSEND":false,
         "tipoParam":"",
-        "requerido":false,
+        "requerido":true,
         "topRequeIN":false,
         "topRequeOUT":false,
         "paramCompar":true,
         "customParam":false,
-        "className":"inlineEditModified",
-        "id":"00Nd0000007hbvw_ileinner",
-        "nodeName":"DIV",
-        "baseURI":"https://na51.salesforce.com/5000V00001L9zNR?isdtp=vw&nonce=5f20bb32cc82e28ca3287c2104b0383cd555c6d21afe7b86ae0cf21cf20e7a33&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
+        "className":"",
+        "id":"00Nd0000007hbvw",
+        "nodeName":"SELECT",
+        "baseURI":"https://na51.salesforce.com/5000V00001Jypqn?isdtp=vw&nonce=d864ae9821626668a0b1931bc5a6ee1841c4d02a82eddb8882b300e6e086af13&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
+        "textContent":"--Ninguno--COORDCONTINGENCIAFRESNEDAABONILLACAMAYAJRICAURTEEGONZALEZCRINCONECORREDORDCELISKVELASQUEZMMEDINAHSANCHEZDCORDOBAJCASTAÑEDADCONTRERASMCRUZYFONSECAVSANCHEZWSANTOSCCAMACHOGGONZALEZLC",
         "parentNode": {
-            "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000007hbvw_ilecell", "nodeName": "TD"
+            "className": "", "id": "", "nodeName": "SPAN"
         }
     }
     ],
@@ -378,27 +359,8 @@
             "className": "CustomParam", "id": "CustomParam", "nodeName": "CustomParam"
         }
     }
+    ]
     ],
-    [ {
-        "reLoadParam":true,
-        "othersParams":false,
-        "topRequeSEND":false,
-        "tipoParam":"",
-        "requerido":false,
-        "topRequeIN":false,
-        "topRequeOUT":false,
-        "paramCompar":false,
-        "customParam":false,
-        "className":"inlineEditModified",
-        "id":"00Nd0000007hbvw_ileinner",
-        "nodeName":"DIV",
-        "baseURI":"https://na51.salesforce.com/5000V00001L9zNR?isdtp=vw&nonce=5f20bb32cc82e28ca3287c2104b0383cd555c6d21afe7b86ae0cf21cf20e7a33&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
-        "textContent":"CONTINGENCIA",
-        "parentNode": {
-            "className": "dataCol col02 inlineEditWriteOn", "id": "00Nd0000007hbvw_ilecell", "nodeName": "TD"
-        }
-    }
-    ]],
     "paramsNames":["question",
     "language",
     "userInput",
@@ -415,9 +377,8 @@
     "expectativa",
     "tipo",
     "keeper",
-    "keeper2",
-    "otro",
-    "keeperReload"],
+    "otro"
+    ],
     "globalConfig": {
         "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://keeper-pilot-app.azurewebsites.net/auth", "askURL": "https://keeper-pilot-app.azurewebsites.net/model/predict", "trainingURL": "https://keeper-pilot-app.azurewebsites.net/training/save", "metricsURL": "https://keeper-pilot-app.azurewebsites.net/metrics/save"
     }
