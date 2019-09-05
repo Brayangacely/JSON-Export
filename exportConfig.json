@@ -17,7 +17,8 @@
         "textContent":"",
         "tipoParam":"",
         "topRequeIN":true,
-        "topRequeOUT":false
+        "topRequeOUT":false,
+        "repeatQuestion":true
     }
     ],
 
@@ -39,7 +40,8 @@
         "tipoParam":"",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ],
 
@@ -60,7 +62,8 @@
         "textContent":"",
         "parentNode": {
             "className": "", "id": "username_container", "nodeName": "DIV"
-        }
+        },
+        "repeatQuestion":false
     }
     ],
 
@@ -82,7 +85,8 @@
         "tipoParam":"",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ],
 
@@ -103,7 +107,8 @@
         "tipoParam":"",
         "topRequeIN":false,
         "topRequeOUT":true,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -124,7 +129,8 @@
         "tipoParam":"",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":true
+        "topRequeSEND":true,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -145,7 +151,8 @@
         "tipoParam":"",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -166,7 +173,8 @@
         "tipoParam":"",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -187,7 +195,8 @@
         "tipoParam":"typification",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -208,7 +217,8 @@
         "tipoParam":"typification",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -229,7 +239,8 @@
         "tipoParam":"typification",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -250,7 +261,8 @@
         "tipoParam":"typification",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -271,7 +283,8 @@
         "tipoParam":"intention",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -292,7 +305,8 @@
         "tipoParam":"otro",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -313,7 +327,8 @@
         "tipoParam":"otro",
         "topRequeIN":false,
         "topRequeOUT":false,
-        "topRequeSEND":false
+        "topRequeSEND":false,
+        "repeatQuestion":false
     }
     ,
     null],
@@ -334,7 +349,8 @@
         "textContent":"--Ninguno--COORDCONTINGENCIAFRESNEDAABONILLACAMAYAJRICAURTEEGONZALEZCRINCONECORREDORDCELISKVELASQUEZMMEDINAHSANCHEZDCORDOBAJCASTAÑEDADCONTRERASMCRUZYFONSECAVSANCHEZWSANTOSCCAMACHOGGONZALEZLC",
         "parentNode": {
             "className": "", "id": "", "nodeName": "SPAN"
-        }
+        },
+        "repeatQuestion":false
     }
     ],
 
@@ -357,7 +373,8 @@
         "textContent":"",
         "parentNode": {
             "className": "CustomParam", "id": "CustomParam", "nodeName": "CustomParam"
-        }
+        },
+        "repeatQuestion":false
     }
     ]
     ],
