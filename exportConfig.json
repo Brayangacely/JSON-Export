@@ -397,6 +397,6 @@
     "otro"
     ],
     "globalConfig": {
-        "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://keeper-pilot-app.azurewebsites.net/auth", "askURL": "https://keeper-pilot-app.azurewebsites.net/model/predict", "trainingURL": "https://keeper-pilot-app.azurewebsites.net/training/save", "metricsURL": "https://keeper-pilot-app.azurewebsites.net/metrics/save"
+        "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://keeper-pilot-web.azurewebsites.net/auth", "askURL": "https://keeper-pilot-web.azurewebsites.net/model/predict", "trainingURL": "https://keeper-pilot-web.azurewebsites.net/training/save", "metricsURL": "https://keeper-pilot-web.azurewebsites.net/metrics/save"
     }
 }
