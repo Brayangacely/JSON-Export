@@ -376,6 +376,30 @@
         },
         "repeatQuestion":false
     }
+    ],
+    [
+        {
+            "tipoParam": "nombre",
+            "requerido": false,
+            "topRequeIN": false,
+            "topRequeOUT": false,
+            "paramCompar": false,
+            "customParam": true,
+            "othersParams": true,
+            "topRequeSEND": false,
+            "repeatQuestion": false,
+            "className": "CustomParam",
+            "id": "CustomParam",
+            "nodeName": "CustomParam",
+            "sendSelector": "null",
+            "recivedSelector": "TD.dataCell.cellCol4>A",
+            "baseURI": "https://na51.salesforce.com/5000V00001LAxHY?isdtp=vw&isWsVw=true&nonce=fcd2427cc026199e4f9718151ec98b5ef25f0991ba994cfd262d4bcd7487a5a9&sfdcIFrameOrigin=https%3A%2F%2Fna51.salesforce.com",
+            "parentNode": {
+                "className": "CustomParam",
+                "id": "CustomParam",
+                "nodeName": "CustomParam"
+            }
+        }
     ]
     ],
     "paramsNames":["question",
@@ -394,7 +418,8 @@
     "expectativa",
     "tipo",
     "keeper",
-    "otro"
+    "otro",
+    "cliente"
     ],
     "globalConfig": {
         "project": "avianca@salesforce.com", "passProject": "avianca", "logginURL": "https://keeper-pilot-web.azurewebsites.net/auth", "askURL": "https://keeper-pilot-web.azurewebsites.net/model/predict", "trainingURL": "https://keeper-pilot-web.azurewebsites.net/training/save", "metricsURL": "https://keeper-pilot-web.azurewebsites.net/metrics/save"
